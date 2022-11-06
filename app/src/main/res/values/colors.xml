@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    Login theme-->
+
+    <color name="login_background_start_color">#1F1C27</color>
+    <color name="login_background_end_color">#2C273C</color>
+
+    <color name="login_button_normal">#CC2A5E</color>
+    <color name="login_button_text">#FFFFFF</color>
+
+    <color name="login_editText_background_normal">#2C273C</color>
+    <color name="login_ediText_text">#938FA0</color>
+
 </resources>
