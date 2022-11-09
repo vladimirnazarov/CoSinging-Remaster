@@ -14,9 +14,20 @@
     <color name="login_background_end_color">#2C273C</color>
 
     <color name="login_button_normal">#CC2A5E</color>
+    <color name="login_button_disabled">#858182</color>
+    <color name="login_button_pressed">#703A55</color>
+    <color name="login_button_selected">#8E5271</color>
     <color name="login_button_text">#FFFFFF</color>
 
-    <color name="login_editText_background_normal">#2C273C</color>
-    <color name="login_ediText_text">#938FA0</color>
+    <color name="login_edittext_background_unfocused">#2C273C</color>
+    <color name="login_edittext_background_focused">#8C8B8C</color>
+    <color name="login_ediText_text">#B0AEB8</color>
+
+    <color name="login_edittext_if">#C60141</color>
+    <color name="login_edittext_iu">#8C8185</color>
+
+    <color name="loginColorPrimary">#2C273C</color>
+    <color name="loginColorPrimaryVariant">#FF453F55</color>
+    <color name="loginColorAccent">#CC2A5E</color>
 
 </resources>

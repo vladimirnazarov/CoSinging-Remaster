@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable-v24/ic_user1_unfocused.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_lock1.xml" value="0.114" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_lock1_focused.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_lock1_unfocused.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_user1.xml" value="0.114" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_user1_focused.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/ic_user1_unfocused.xml" value="0.1245" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_background.xml" value="0.114" />
-        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_login_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_button.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_button_background.xml" value="0.114" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_button_focused.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_button_normal.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_button_pressed.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_edittext.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_edittext_background.xml" value="0.114" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_edittext_icon_theme.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/drawable/login_userlogin_theme.xml" value="0.1245" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_login_screen.xml" value="0.2" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/login_screen.xml" value="0.22826086956521738" />
       </map>

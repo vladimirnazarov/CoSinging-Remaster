@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="LoginScreenTheme" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="LoginScreenTheme" parent="Theme.AppCompat.NoActionBar">
 
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
 
-        <item name="colorPrimary">@color/login_background_end_color</item>
-        <item name="colorPrimaryVariant">@color/login_background_start_color</item>
-        <item name="colorAccent">@color/login_button_normal</item>
+        <item name="colorPrimary">@color/loginColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/loginColorPrimaryVariant</item>
+        <item name="colorAccent">@color/loginColorAccent</item>
 
     </style>
 

@@ -4,7 +4,7 @@
 
     <gradient
         android:angle="270"
-        android:endColor="@color/login_background_end_color"
-        android:startColor="@color/login_background_start_color" />
+        android:endColor="@color/loginColorPrimary"
+        android:startColor="@color/loginColorPrimaryVariant" />
 
 </shape>
