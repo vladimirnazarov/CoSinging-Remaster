@@ -6,4 +6,11 @@
     <string name="login_enter">Log in</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="cancel">Cancel</string>
+    <string name="password_recovery">Password recovery</string>
+    <string name="enter_your_login">Enter your login</string>
+    <string name="next">Next</string>
+    <string name="i_don_t_remember_my_login">I don\'t remember my login</string>
+    <string name="enter_code">Enter code</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="confirm">Confirm</string>
 </resources>
