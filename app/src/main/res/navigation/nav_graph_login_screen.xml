@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fp"
+    app:startDestination="@id/loginScreenMainFragment">
+
+    <fragment
+        android:id="@+id/forgetPassword1"
+        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordEmail.ForgetPassword1"
+        android:label="ForgetPassword1" >
+        <action
+            android:id="@+id/action_forgetPassword1_to_forgetPasswordPhone"
+            app:destination="@id/forgetPasswordPhone" />
+        <action
+            android:id="@+id/action_forgetPassword1_to_forgetPassword2"
+            app:destination="@id/forgetPassword2" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordPhone"
+        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordPhone.ForgetPasswordPhone1"
+        android:label="ForgetPasswordPhone" >
+        <action
+            android:id="@+id/action_forgetPasswordPhone_to_forgetPassword1"
+            app:destination="@id/forgetPassword1" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreenMainFragment"
+        android:name="com.vnazarov.cosinging.login.fragments.LoginScreenMainFragment"
+        android:label="LoginScreenMainFragment" >
+        <action
+            android:id="@+id/action_loginScreenMainFragment_to_forgetPassword1"
+            app:destination="@id/forgetPassword1" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPassword2"
+        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordEmail.ForgetPassword2"
+        android:label="ForgetPassword2" >
+        <action
+            android:id="@+id/action_forgetPassword2_to_forgetPassword1"
+            app:destination="@id/forgetPassword1" />
+        <action
+            android:id="@+id/action_forgetPassword2_to_forgetPassword3"
+            app:destination="@id/forgetPassword3" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPassword3"
+        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordEmail.ForgetPassword3"
+        android:label="ForgetPassword3" >
+        <action
+            android:id="@+id/action_forgetPassword3_to_forgetPassword2"
+            app:destination="@id/forgetPassword2" />
+    </fragment>
+</navigation>

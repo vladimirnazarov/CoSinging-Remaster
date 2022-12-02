@@ -1,50 +1,77 @@
-package com.vnazarov.cosinging
+package com.vnazarov.cosinging.login.fragments
 
 import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
+import com.vnazarov.cosinging.MainActivity
+import com.vnazarov.cosinging.R
 
-class LoginScreen : AppCompatActivity() {
+class LoginScreenMainFragment: Fragment() {
 
     private lateinit var signIn: TextView
 
     private lateinit var loginButton: Button
     private lateinit var etLogin: EditText
     private lateinit var etPassword: EditText
+    private lateinit var forgetPassword: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login_screen)
+    }
 
-        findElements()
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_login_screen, container, false)
+
+        defineElements(view)
 
         signIn.setOnClickListener {
-            createSignInDialog(this@LoginScreen)
+            createSignInDialog(requireContext())
         }
 
         loginButton.setOnClickListener {
-            val intent = MainActivity.newIntent(this@LoginScreen)
+            val intent = MainActivity.newIntent(requireContext())
             startActivity(intent)
         }
+
+        forgetPassword.setOnClickListener {
+            Navigation.findNavController(requireView()).navigate(R.id.action_loginScreenMainFragment_to_forgetPassword1)
+        }
+
+        return view
     }
 
-    private fun findElements() {
-        signIn = findViewById(R.id.login_screen_sign_in_text)
+    companion object{
+        fun newInstance(): LoginScreenMainFragment = LoginScreenMainFragment()
+    }
+
+    private fun defineElements(view: View) {
+        signIn = view.findViewById(R.id.login_screen_sign_in_text)
         signIn.isClickable = true
 
-        etLogin = findViewById(R.id.login_screen_et_login)
-        etPassword = findViewById(R.id.login_screen_et_password)
+        etLogin = view.findViewById(R.id.login_screen_et_login)
+        etPassword = view.findViewById(R.id.login_screen_et_password)
 
-        loginButton = findViewById(R.id.login_screen_login_button)
+        loginButton = view.findViewById(R.id.login_screen_login_button)
         defineLoginTextWatcher()
+
+        forgetPassword = view.findViewById(R.id.login_screen_forget)
+        forgetPassword.isClickable = true
     }
 
     /**
@@ -52,7 +79,7 @@ class LoginScreen : AppCompatActivity() {
      */
 
     private fun createSignInDialog(packageContext: Context) {
-        val dialogBinding = layoutInflater.inflate(R.layout.activity_sign_in_dialog, null)
+        val dialogBinding = layoutInflater.inflate(R.layout.sign_in_dialog, null)
 
         val myDialog = Dialog(packageContext)
         myDialog.setContentView(dialogBinding)
@@ -72,7 +99,7 @@ class LoginScreen : AppCompatActivity() {
 
         val yesButton = dialogBinding.findViewById<Button>(R.id.sign_in_yes)
         yesButton.setOnClickListener {
-            val intent = MainActivity.newIntent(this@LoginScreen)
+            val intent = MainActivity.newIntent(requireContext())
             startActivity(intent)
         }
 
