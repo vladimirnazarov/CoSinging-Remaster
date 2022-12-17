@@ -53,7 +53,7 @@
 
                     android:background="@drawable/login_edittext"
 
-                    android:drawableStart="@drawable/login_userlogin_theme"
+                    android:drawableStart="@drawable/login_user_login_theme"
                     android:drawablePadding="15dp"
                     android:hint="@string/login"
                     android:inputType="textEmailAddress" />
@@ -100,19 +100,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
 
+                    android:layout_below="@id/sign_in_view_2"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="25dp"
+
                     android:layout_marginEnd="5dp"
-
-                    android:paddingStart="10dp"
-                    android:layout_below="@id/sign_in_view_2"
-
                     android:background="@drawable/login_edittext"
 
-                    android:drawableStart="@drawable/login_lock_theme"
+                    android:drawableStart="@drawable/login_key_theme"
+
                     android:drawablePadding="15dp"
                     android:hint="@string/confirm_password"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:paddingStart="10dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

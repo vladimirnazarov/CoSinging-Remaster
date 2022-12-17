@@ -1,4 +1,4 @@
-package com.vnazarov.cosinging.login.fragments.forgetPasswordEmail
+package com.vnazarov.cosinging.login.fragments.recovery
 
 import android.os.Bundle
 import android.text.Editable
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import com.vnazarov.cosinging.MainActivity
 import com.vnazarov.cosinging.R
 
-class ForgetPassword3 : Fragment() {
+class RecoveryPassword : Fragment() {
 
     private lateinit var etPassword: EditText
     private lateinit var etConfirmPassword: EditText
@@ -27,7 +27,7 @@ class ForgetPassword3 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_forget_password_3, container, false)
+        val view = inflater.inflate(R.layout.fragment_recovery_password, container, false)
 
         defineElements(view)
 

@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_forgetPasswordPhone_to_forgetPassword1"
             app:destination="@id/forgetPassword1" />
+        <action
+            android:id="@+id/action_forgetPasswordPhone_to_forgetPasswordPhone2"
+            app:destination="@id/forgetPasswordPhone2" />
     </fragment>
     <fragment
         android:id="@+id/loginScreenMainFragment"
@@ -45,10 +48,24 @@
     </fragment>
     <fragment
         android:id="@+id/forgetPassword3"
-        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordEmail.ForgetPassword3"
+        android:name="com.vnazarov.cosinging.login.fragments.recovery.RecoveryPassword"
         android:label="ForgetPassword3" >
         <action
             android:id="@+id/action_forgetPassword3_to_forgetPassword2"
             app:destination="@id/forgetPassword2" />
+        <action
+            android:id="@+id/action_forgetPassword3_to_forgetPasswordPhone2"
+            app:destination="@id/forgetPasswordPhone2" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordPhone2"
+        android:name="com.vnazarov.cosinging.login.fragments.forgetPasswordPhone.ForgetPasswordPhone2"
+        android:label="ForgetPasswordPhone2" >
+        <action
+            android:id="@+id/action_forgetPasswordPhone2_to_forgetPasswordPhone"
+            app:destination="@id/forgetPasswordPhone" />
+        <action
+            android:id="@+id/action_forgetPasswordPhone2_to_forgetPassword3"
+            app:destination="@id/forgetPassword3" />
     </fragment>
 </navigation>
