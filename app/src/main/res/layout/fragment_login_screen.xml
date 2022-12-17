@@ -32,7 +32,7 @@
 
             android:background="@drawable/login_edittext"
 
-            android:drawableStart="@drawable/login_userlogin_theme"
+            android:drawableStart="@drawable/login_user_login_theme"
 
             android:drawablePadding="15dp"
             android:focusedByDefault="false"

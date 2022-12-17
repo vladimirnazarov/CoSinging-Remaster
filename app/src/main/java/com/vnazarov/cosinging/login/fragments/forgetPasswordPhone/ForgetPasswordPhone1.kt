@@ -8,7 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 import com.vnazarov.cosinging.R
 
 class ForgetPasswordPhone1: Fragment() {
@@ -28,6 +30,11 @@ class ForgetPasswordPhone1: Fragment() {
         val view = inflater.inflate(R.layout.fragment_forget_password_phone_1, container, false)
 
         defineElements(view)
+
+        nextButton.setOnClickListener {
+            val bundle = bundleOf("phone" to etPhone.text.toString())
+            Navigation.findNavController(requireView()).navigate(R.id.action_forgetPasswordPhone_to_forgetPasswordPhone2, bundle)
+        }
 
         return view
     }
