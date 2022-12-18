@@ -10,8 +10,8 @@
 
     <!--    Login theme-->
 
-    <color name="login_background_start_color">#1F1C27</color>
-    <color name="login_background_end_color">#2C273C</color>
+    <color name="login_background_start_color">#0D0C10</color>
+    <color name="login_background_end_color">#181620</color>
 
     <color name="login_button_normal">#CC2A5E</color>
     <color name="login_button_disabled">#858182</color>
