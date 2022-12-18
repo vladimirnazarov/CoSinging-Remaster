@@ -3,9 +3,6 @@
 
     <style name="LoginScreenTheme" parent="Theme.AppCompat.NoActionBar">
 
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">false</item>
-
         <item name="colorPrimary">@color/loginColorPrimary</item>
         <item name="colorPrimaryVariant">@color/loginColorPrimaryVariant</item>
         <item name="colorAccent">@color/loginColorAccent</item>

@@ -13,4 +13,9 @@
     <string name="enter_code">Enter code</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="confirm">Confirm</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="cosinging_service"><u>CoSinging Service</u></string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
 </resources>
