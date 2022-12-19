@@ -25,13 +25,13 @@
 
             android:layout_gravity="center"
 
-            android:text="@string/login"
+            android:text="@string/sign_up"
             android:textColor="@color/black"
             android:textSize="64sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/login_email_editText"
+            android:id="@+id/sign_up_email_editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
 
@@ -45,7 +45,7 @@
             android:textSize="19sp" />
 
         <EditText
-            android:id="@+id/login_password_editText"
+            android:id="@+id/sign_up_password_editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
 
@@ -60,31 +60,17 @@
             android:paddingEnd="15dp"
             android:textSize="19sp" />
 
-        <TextView
-            android:id="@+id/login_forget_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_gravity="end"
-            android:layout_marginStart="10dp"
-
-            android:layout_marginEnd="10dp"
-            android:padding="10dp"
-            android:text="@string/forgot_password"
-
-            android:textSize="17sp" />
-
         <Button
-            android:id="@+id/login_si_button"
+            android:id="@+id/sign_up_continue_button"
             android:layout_width="match_parent"
             android:layout_height="55dp"
 
             android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="65dp"
 
             android:background="@drawable/login_button_primary"
 
-            android:text="@string/sign_in"
+            android:text="@string/continue_auth"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="22sp" />
@@ -100,7 +86,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/login_si_button_google"
+            android:id="@+id/sign_up_si_button_google"
             android:layout_width="match_parent"
             android:layout_height="60dp"
 
@@ -123,19 +109,19 @@
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
 
-            android:text="@string/not_registered_yet"
+            android:text="@string/have_an_account"
             android:textColor="@color/black"
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/login_create_account"
+            android:id="@+id/sign_up_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
 
-            android:text="@string/create_an_account"
+            android:text="@string/login_enter"
             android:textColor="@color/black"
             android:textSize="23sp" />
 
@@ -166,7 +152,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/login_app_service"
+                android:id="@+id/sign_up_app_service"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
@@ -194,7 +180,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/login_privacy_policy"
+                android:id="@+id/sign_up_privacy_policy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
