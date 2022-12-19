@@ -20,4 +20,10 @@
     <string name="create_an_account">Create an account</string>
     <string name="cosinging_service"><u>CoSinging Service</u></string>
     <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="continue_auth">Continue</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="wrong_email">Wrong email?</string>
+    <string name="change"><u>Change</u></string>
+    <string name="didn_t_get_the_code">Didn\'t get the code?</string>
+    <string name="resend"><u>Resend</u></string>
 </resources>

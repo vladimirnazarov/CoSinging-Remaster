@@ -48,7 +48,9 @@
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_login_screen.xml" value="0.2" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/activity_sign_in_dialog.xml" value="0.264" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/auth_fragment_email_code.xml" value="0.2" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/auth_fragment_login.xml" value="0.2" />
+        <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/auth_fragment_sign_up.xml" value="0.2" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/forget_password_dialog_1.xml" value="0.253125" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/fragment_forget_password_1.xml" value="0.253125" />
         <entry key="..\:/Android/Projects/CoSingingRemaster/app/src/main/res/layout/fragment_forget_password_2.xml" value="0.253125" />
